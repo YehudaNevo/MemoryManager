@@ -1,0 +1,11 @@
+# ninja log v5
+5	441	1714635523515082086	CMakeFiles/MemoryManagerTests.dir/tests/SegmentedFreeListAllocatorTest.cpp.o	1f1c83bd25d15d96
+1	523	1714635298120100130	googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	b51f67620543b461
+441	474	1714635523548443530	MemoryManagerTests	c43dd9d31f31a7b6
+0	1882	1714635299475338436	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	82270623ab11e621
+1883	1929	1714635299530444000	lib/libgtest.a	c5b6a42ad5bc32bd
+1929	1943	1714635299544080000	lib/libgtest_main.a	bb0dc1de61ddf4eb
+4	616	1714638396458505397	CMakeFiles/MemoryManagerTests.dir/tests/SegmentedFreeListAllocatorTest.cpp.o	1f1c83bd25d15d96
+616	744	1714638396588034470	MemoryManagerTests	c43dd9d31f31a7b6
+4	626	1714638443820569750	CMakeFiles/MemoryManagerTests.dir/tests/SegmentedFreeListAllocatorTest.cpp.o	1f1c83bd25d15d96
+627	730	1714638443925649397	MemoryManagerTests	c43dd9d31f31a7b6
