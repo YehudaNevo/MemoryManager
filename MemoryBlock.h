@@ -2,6 +2,7 @@
 #define MEMORYMANAGER_MEMORYBLOCK_H
 #include <cstddef>
 
+// the base NODE in the linked list of the segment list alloc is memory block...
 class MemoryBlock {
 public:
     size_t size;
