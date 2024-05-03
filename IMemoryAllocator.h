@@ -7,7 +7,7 @@ class IMemoryAllocator {
 public:
     virtual void* allocate(size_t size) = 0;
     virtual void deallocate(void* pointer) = 0;
-    virtual ~IMemoryAllocator() {}
+    virtual ~IMemoryAllocator() = default;
 };
 
 

@@ -9,10 +9,15 @@ add_subdirectory(googletest)
 enable_testing()
 
 # Specify the executable for the main application
-add_executable(MemoryManager main.cpp)
+add_executable(MemoryManager main.cpp
+        SegmentedFreeListAllocator.h
+        MemoryBlock.h
+        IMemoryAllocator.h)
 
 # Define test executable.
-add_executable(MemoryManagerTests tests/SegmentedFreeListAllocatorTest.cpp)
+add_executable(MemoryManagerTests tests/SegmentedFreeListAllocatorTest.cpp
+        SegmentedFreeListAllocator.h
+        IMemoryAllocator.h)
 
 # Include Google Test headers
 target_include_directories(MemoryManagerTests PRIVATE ${PROJECT_SOURCE_DIR}/googletest/googletest/include)
